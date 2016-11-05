@@ -13,7 +13,7 @@ able to run it. You'll then need to open a powershell.exe console and run a
 function (e.g. Write-Host). You should then see something similar to the
 following:
 
-[example](img/PowerShellMethodInvocation.PNG)
+![example](img/PowerShellMethodInvocation.PNG)
 
 # Requirements
 
