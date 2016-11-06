@@ -19,4 +19,4 @@ following:
 
 * .NET 4.5.2 (krabsetw .NET bindings will work on 4.5 though)
 * Visual Studio 2015
-* Windows 7 or higher - tested on Windows 10
+* Windows 7 or higher - tested on Windows 10 (64 bit required)
