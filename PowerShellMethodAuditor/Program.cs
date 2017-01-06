@@ -31,6 +31,14 @@ namespace PowerShellMethodAuditor
 
             trace.Enable(powershellProvider);
 
+            Console.CancelKeyPress += (sender, eventArg) =>
+            {
+                if (trace != null)
+                {
+                    trace.Stop();
+                }
+            };
+
             // This is a blocking call. Ctrl-C to stop.
             trace.Start();
         }
